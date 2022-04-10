@@ -10,17 +10,17 @@ SWEP.ViewModel = "models/weapons/v_b_t_mp9.mdl"
 SWEP.WorldModel = "models/weapons/w_brugger_thomet_mp9.mdl"
 
 SWEP.Primary.Sound = "Weapon_mp9.Single"
-SWEP.Primary.RPM = 800
+SWEP.Primary.RPM = 900
 SWEP.Primary.ClipSize = 30
 
-SWEP.Primary.KickUp = 1
-SWEP.Primary.KickDown = 0.7
-SWEP.Primary.KickHorizontal = 0.7
+SWEP.Primary.KickUp = 0.2
+SWEP.Primary.KickDown = 0.1
+SWEP.Primary.KickHorizontal = 0.2
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 13
-SWEP.Primary.Spread = .035
+SWEP.Primary.Damage = 20
+SWEP.Primary.Spread = .02
 
 SWEP.IronSightsPos = Vector(4.073,-3.438,1.259)
 

@@ -10,17 +10,17 @@ SWEP.ViewModel = "models/weapons/v_jackhammer2.mdl"
 SWEP.WorldModel = "models/weapons/w_pancor_jackhammer.mdl"
 
 SWEP.Primary.Sound = "Weapon_Jackhammer.Single"
-SWEP.Primary.RPM = 190
+SWEP.Primary.RPM = 250
 SWEP.Primary.ClipSize = 10
 
-SWEP.Primary.KickUp = 2
-SWEP.Primary.KickDown = 1
-SWEP.Primary.KickHorizontal = 2
+SWEP.Primary.KickUp = 1
+SWEP.Primary.KickDown = 0.5
+SWEP.Primary.KickHorizontal = 0.4
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "buckshot"
-SWEP.Primary.NumShots = 30
-SWEP.Primary.Damage = 3
-SWEP.Primary.Spread = .19
+SWEP.Primary.NumShots = 6
+SWEP.Primary.Damage = 10
+SWEP.Primary.Spread = 0.06
 
 SWEP.IronSightsPos = Vector(4.026,-2.296,0.917)
 

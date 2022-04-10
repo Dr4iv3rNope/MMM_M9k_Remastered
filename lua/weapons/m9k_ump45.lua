@@ -13,13 +13,13 @@ SWEP.Primary.Sound = "m9k_hk_ump45.Single"
 SWEP.Primary.RPM = 500
 SWEP.Primary.ClipSize = 25
 
-SWEP.Primary.KickUp = 1.2
-SWEP.Primary.KickDown = 0.7
-SWEP.Primary.KickHorizontal = 1.2
+SWEP.Primary.KickUp = 0.2
+SWEP.Primary.KickDown = 0.4
+SWEP.Primary.KickHorizontal = 0.45
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "smg1"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 18
+SWEP.Primary.Damage = 20
 SWEP.Primary.Spread = .03
 
 SWEP.IronSightsPos = Vector(2.826,-1.601,1.259)

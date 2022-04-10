@@ -10,16 +10,16 @@ SWEP.ViewModel = "models/weapons/v_tct_f2000.mdl"
 SWEP.WorldModel = "models/weapons/w_fn_f2000.mdl"
 
 SWEP.Primary.Sound = "Weapon_F2000.Single"
-SWEP.Primary.RPM = 355
+SWEP.Primary.RPM = 1200
 SWEP.Primary.ClipSize = 30
 
-SWEP.Primary.KickUp = 2
-SWEP.Primary.KickDown = 1.3
-SWEP.Primary.KickHorizontal = 1.5
+SWEP.Primary.KickUp = 0.35
+SWEP.Primary.KickDown = 0.35
+SWEP.Primary.KickHorizontal = 0.2
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 28
+SWEP.Primary.Damage = 15
 SWEP.Primary.Spread = .025
 SWEP.Primary.SpreadZoomed = .0175
 SWEP.Primary.SpreadBefore = SWEP.Primary.Spread

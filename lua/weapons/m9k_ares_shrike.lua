@@ -12,16 +12,16 @@ SWEP.ViewModel = "models/weapons/v_ares_shrike01.mdl"
 SWEP.WorldModel = "models/weapons/w_ares_shrike.mdl"
 
 SWEP.Primary.Sound = "Weapon_shrk.Single"
-SWEP.Primary.RPM = 650
+SWEP.Primary.RPM = 750
 SWEP.Primary.ClipSize = 200
 
-SWEP.Primary.KickUp = 1.2
-SWEP.Primary.KickDown = 0.9
-SWEP.Primary.KickHorizontal = 1.1
+SWEP.Primary.KickUp = 0.6
+SWEP.Primary.KickDown = 0.4
+SWEP.Primary.KickHorizontal = 0.5
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 21
+SWEP.Primary.Damage = 25
 SWEP.Primary.Spread = .056
 
 SWEP.IronSightsPos = Vector(-3.804,0,0.495)

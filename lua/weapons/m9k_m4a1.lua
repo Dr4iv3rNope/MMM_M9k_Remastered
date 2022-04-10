@@ -10,16 +10,16 @@ SWEP.ViewModel = "models/weapons/v_m4a1_iron.mdl"
 SWEP.WorldModel = "models/weapons/w_m4a1_iron.mdl"
 
 SWEP.Primary.Sound = "Dmgfok_M4A1.Single"
-SWEP.Primary.RPM = 345
+SWEP.Primary.RPM = 800
 SWEP.Primary.ClipSize = 30
 
-SWEP.Primary.KickUp = 3
-SWEP.Primary.KickDown = 1.8
-SWEP.Primary.KickHorizontal = 2.2
+SWEP.Primary.KickUp = 0.4
+SWEP.Primary.KickDown = 0.4
+SWEP.Primary.KickHorizontal = 0.5
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 24
+SWEP.Primary.Damage = 25
 SWEP.Primary.Spread = .02
 
 SWEP.IronSightsPos = Vector(2.4537,1.0923,0.2696)

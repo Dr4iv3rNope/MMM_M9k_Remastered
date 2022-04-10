@@ -12,13 +12,13 @@ SWEP.Primary.Sound = "Double_Barrel.Single"
 SWEP.Primary.RPM = 180
 SWEP.Primary.ClipSize = 2
 
-SWEP.Primary.KickUp = 7
+SWEP.Primary.KickUp = 5
 SWEP.Primary.KickDown = 5
 SWEP.Primary.KickHorizontal = 10
 SWEP.Primary.Automatic = false
 SWEP.Primary.Ammo = "buckshot"
-SWEP.Primary.NumShots = 27
-SWEP.Primary.Damage = 4
+SWEP.Primary.NumShots = 30
+SWEP.Primary.Damage = 6
 SWEP.Primary.Spread = .15
 
 SWEP.ShellTime = .5

@@ -10,16 +10,16 @@ SWEP.ViewModel = "models/weapons/v_kac_pdw1.mdl"
 SWEP.WorldModel = "models/weapons/w_kac_pdw.mdl"
 
 SWEP.Primary.Sound = "KAC_PDW.Single"
-SWEP.Primary.RPM = 500
+SWEP.Primary.RPM = 600
 SWEP.Primary.ClipSize = 30
 
-SWEP.Primary.KickUp = 2.1
-SWEP.Primary.KickDown = 1.9
-SWEP.Primary.KickHorizontal = 1.6
+SWEP.Primary.KickUp = 0.1
+SWEP.Primary.KickDown = 0.1
+SWEP.Primary.KickHorizontal = 0.2
 SWEP.Primary.Automatic = true
 SWEP.Primary.Ammo = "ar2"
 SWEP.Primary.NumShots = 1
-SWEP.Primary.Damage = 18
+SWEP.Primary.Damage = 15
 SWEP.Primary.Spread = .0275
 
 SWEP.IronSightsPos = Vector(3.355,0,0.9)
