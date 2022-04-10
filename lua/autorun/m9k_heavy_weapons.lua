@@ -76,62 +76,6 @@ sound.Add({
 })
 
 sound.Add({
-	name = "Weapon_SVT40.single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1-1.wav"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.Cloth1",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_cloth1.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.Cloth2",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_cloth2.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.Clipout",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_clipout.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.Clipin",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_clipin.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.ClipTap",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_cliptap.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.SlideBack",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_slide_b.mp3"
-})
-
-sound.Add({
-	name = "Weapon_SVT40.SlideForward",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/svt40/g3sg1_slide_f.mp3"
-})
-
-sound.Add({
 	name = "spas_12_shoty.Single",
 	channel = CHAN_USER_BASE + 10,
 	volume = 1.0,
@@ -150,62 +94,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1.0,
 	sound = "weapons/spas_12/xm_cock.mp3"
-})
-
-sound.Add({
-	name = "Weapon_usas.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/usas12/xm1014-1.wav"
-})
-
-sound.Add({
-	name = "Weapon_usas.clipin",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/usas12/magin.mp3"
-})
-
-sound.Add({
-	name = "Weapon_usas.clipout",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/usas12/magout.mp3"
-})
-
-sound.Add({
-	name = "Weapon_usas.draw",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/usas12/draw.mp3"
-})
-
-sound.Add({
-	name = "7615p_remington.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/7615p/scout_fire-1.wav"
-})
-
-sound.Add({
-	name = "7615p_bob.pump",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/7615p/m3_pump.mp3"
-})
-
-sound.Add({
-	name = "Weapon_7615P.Clipout",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/7615p/sg550_clipout.mp3"
-})
-
-sound.Add({
-	name = "Weapon_7615P.Clipin",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/7615p/sg550_clipin.mp3"
 })
 
 sound.Add({
@@ -262,27 +150,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1.0,
 	sound = "weapons/win94/scout_clipout.mp3"
-})
-
-sound.Add({
-	name = "ShotStriker12.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/striker12/xm1014-1.wav"
-})
-
-sound.Add({
-	name = "ShotStriker12.Deploy",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/striker12/deploy.mp3"
-})
-
-sound.Add({
-	name = "ShotStriker12.InsertShell",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/striker12/m3_insertshell.mp3"
 })
 
 sound.Add({
@@ -360,62 +227,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1,
 	sound = "weapons/psg1/deploy1.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Single",
-	channel = CHAN_USER_BASE + 10,
-	volumel = 1.0,
-	sound = {"weapons/g2contender/scout-1.wav","weapons/g2contender/scout-2.wav","weapons/g2contender/scout-3.wav"}
-})
-
-sound.Add({
-	name = "contender_g2.Draw",
-	channel = CHAN_ITEM,
-	volumel = 1.0,
-	sound = "weapons/g2contender/Draw.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Hammer",
-	channel = CHAN_USER_BASE + 1,
-	volumel = 1.0,
-	sound = {"weapons/g2contender/Cock-1.mp3","weapons/g2contender/Cock-2.mp3"}
-})
-
-sound.Add({
-	name = "contender_g2.Open",
-	channel = CHAN_ITEM,
-	volumel = 1.0,
-	sound = "weapons/g2contender/open_chamber.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Shellout",
-	channel = CHAN_USER_BASE + 1,
-	volumel = 1.0,
-	sound = "weapons/g2contender/Bullet_out.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Shellin",
-	channel = CHAN_ITEM,
-	volumel = 1.0,
-	sound = "weapons/g2contender/Bullet_in.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Close",
-	channel = CHAN_ITEM,
-	volumel = 1.0,
-	sound = "weapons/g2contender/close_chamber.mp3"
-})
-
-sound.Add({
-	name = "contender_g2.Shell",
-	channel = CHAN_USER_BASE + 2,
-	volumel = 1.0,
-	sound = {"weapons/g2contender/pl_shell1.mp3","weapons/g2contender/pl_shell2.mp3","weapons/g2contender/pl_shell3.mp3","weapons/g2contender/pl_shell4.mp3"}
 })
 
 sound.Add({
@@ -521,41 +332,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1.0,
 	sound = "weapons/M82/boltdown.mp3"
-})
-
-sound.Add({
-	name = "Dmgfok_M24SN.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/dmg_m24/awp1.wav"
-})
-
-sound.Add({
-	name = "Dmgfok_M24SN.Clipin",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/dmg_m24/m24_magin.mp3"
-})
-
-sound.Add({
-	name = "Dmgfok_M24SN.Clipout",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/dmg_m24/m24_magout.mp3"
-})
-
-sound.Add({
-	name = "Dmgfok_M24SN.Boltback",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/dmg_m24/m24_boltback.mp3"
-})
-
-sound.Add({
-	name = "Dmgfok_M24SN.Boltforward",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/dmg_m24/m24_boltforward.mp3"
 })
 
 sound.Add({
@@ -710,90 +486,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1.0,
 	sound = "weapons/fokku_tc_intrv/int_clipin.mp3"
-})
-
-sound.Add({
-	name = "1887winch.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/1887winchester/1887-1.wav"
-})
-
-sound.Add({
-	name = "1887winch.Insertshell",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1887winchester/1887_insertshell.mp3"
-})
-
-sound.Add({
-	name = "1887winch.Pump",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1887winchester/1887pump1.mp3"
-})
-
-sound.Add({
-	name = "1887pump2.Pump",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1887winchester/1887pump2.mp3"
-})
-
-sound.Add({
-	name = "Trench_97.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/1897trench/m3-1.wav"
-})
-
-sound.Add({
-	name = "Trench_97.Insertshell",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1897trench/m3_insertshell.mp3"
-})
-
-sound.Add({
-	name = "Trench_97.Pump",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1897trench/m3_pump.mp3"
-})
-
-sound.Add({
-	name = "Trench_07.Pump",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/1897trench/1897_deploy.mp3"
-})
-
-sound.Add({
-	name = "Weapon_a5.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/browninga5/xm1014-1.wav"
-})
-
-sound.Add({
-	name = "Weapon_bauto5.InsertShell",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/browninga5/xm1014_insertshell.mp3"
-})
-
-sound.Add({
-	name = "Weapon_a5.back",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/browninga5/xm1014_check.mp3"
-})
-
-sound.Add({
-	name = "Weapon_a5.draw",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/browninga5/xm1014_deploy.mp3"
 })
 
 sound.Add({
@@ -1123,34 +815,6 @@ sound.Add({
 	channel = CHAN_ITEM,
 	volume = 1.0,
 	sound = ")weapons/minigun/mini_coverdown.mp3"
-})
-
-sound.Add({
-	name = "FG42_weapon.Single",
-	channel = CHAN_USER_BASE + 10,
-	volume = 1.0,
-	sound = "weapons/fg42/ak47-1.wav"
-})
-
-sound.Add({
-	name = "FG42_weapon.Clipout",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/fg42/ak47_clipout.mp3"
-})
-
-sound.Add({
-	name = "FG42_weapon.Clipin",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/fg42/ak47_clipin.mp3"
-})
-
-sound.Add({
-	name = "FG42_weapon.BoltPull",
-	channel = CHAN_ITEM,
-	volume = 1.0,
-	sound = "weapons/fg42/ak47_boltpull.mp3"
 })
 
 sound.Add({

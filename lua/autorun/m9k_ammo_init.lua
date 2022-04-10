@@ -8,7 +8,6 @@ if CLIENT then
 	language.Add("rzmflaregun_ammo","Flaregun Ammo")
 	language.Add("NerveGas_ammo","Nerve Gas")
 	language.Add("nitroG_ammo","Nitro Glycerine")
-	language.Add("Harpoon_ammo","Harpoon")
 	language.Add("StickyGrenade_ammo","Sticky Grenade")
 end
 
@@ -38,9 +37,5 @@ hook.Add("Initialize","M9k_Ammo_Init",function()
 
 	game.AddAmmoType({
 		name = "nitroG"
-	})
-
-	game.AddAmmoType({
-		name = "Harpoon"
 	})
 end)
