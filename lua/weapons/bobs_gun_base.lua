@@ -446,15 +446,17 @@ function SWEP:RicochetCallback(bouncenum, attacker, tr, dmginfo)
 			sound.Play(bulletmiss[math.random(1, #bulletmiss)], tr.HitPos, 75, math.random(75,150), 1)
 		end
 
-		local effectdata = EffectData()
-		effectdata:SetOrigin(tr.HitPos)
-		effectdata:SetNormal(tr.HitNormal)
-		effectdata:SetScale(20)
+		if type(tr.Tracer) == "number" then
+			local effectdata = EffectData()
+			effectdata:SetOrigin(tr.HitPos)
+			effectdata:SetNormal(tr.HitNormal)
+			effectdata:SetScale(20)
 
-		if self.Tracer >= 0 and self.Tracer <= 2 then
-			util.Effect("AR2Impact", effectdata)
-		elseif self.Tracer == 3 then
-			util.Effect("StunstickImpact", effectdata)
+			if tr.Tracer >= 0 and tr.Tracer <= 2 then
+				util.Effect("AR2Impact", effectdata)
+			elseif tr.Tracer == 3 then
+				util.Effect("StunstickImpact", effectdata)
+			end
 		end
 
 		return
