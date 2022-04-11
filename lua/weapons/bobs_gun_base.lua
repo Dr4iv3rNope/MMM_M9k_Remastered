@@ -106,7 +106,7 @@ function SWEP:Deploy()
 
 		timer.Remove("MMM_M9k_Deploy_" .. self.OurIndex)
 		timer.Create("MMM_M9k_Deploy_" .. self.OurIndex,Dur,1,function()
-			if not IsValid(self) or not IsValid(self.Owner) or not IsValid(self.Owner:GetActiveWeapon()) or self.Owner:GetActiveWeapon():GetClass() ~= self:GetClass() then return end
+			if not IsValid(self.Owner) or self.Owner:GetActiveWeapon() ~= self then return end
 			self:SetNWBool("CanIronSights",true)
 			self.CanReload = true
 		end)
