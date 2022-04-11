@@ -123,11 +123,15 @@ end
 function SWEP:ShootBulletInformation()
 	local Spread = self.Primary.Spread
 
+	if self.IronSightState and self.Owner:KeyDown(IN_ATTACK2) then
+		Spread = Spread / 2
+	end
+
 	if self.ShouldDoMoveSpread then
 		if self.Owner:GetVelocity():Length() > 100 then
-			Spread = self.Primary.Spread * 3
+			Spread = Spread * 6
 		elseif self.Owner:KeyDown(IN_DUCK) then
-			Spread = self.Primary.Spread / 2
+			Spread = Spread / 2
 		end
 	end
 
@@ -197,7 +201,7 @@ function SWEP:PrimaryAttack()
 	end
 end
 
-function SWEP:ShootBullet(damage,_,num_bullets,aimcone)
+function SWEP:ShootBullet(damage, _, num_bullets, aimcone)
 	num_bullets = num_bullets or 1
 	aimcone = aimcone or 0
 
@@ -205,7 +209,7 @@ function SWEP:ShootBullet(damage,_,num_bullets,aimcone)
 		Num = num_bullets,
 		Src = self.Owner:GetShootPos(),
 		Dir = self.Owner:GetAimVector(),
-		Spread = Vector(aimcone,aimcone,0),
+		Spread = Vector(aimcone, aimcone, 0),
 		Tracer = TRACER_LINE_AND_WHIZ,
 		TracerName = "Tracer",
 		Force = damage * 0.3,
@@ -385,22 +389,6 @@ if CLIENT then
 
 			return true
 		end
-	end
-end
-
-function SWEP:ShootBulletInformation()
-	local CurrentCone
-
-	if self.IronSightState and self.Owner:KeyDown(IN_ATTACK2) then
-		CurrentCone = self.Primary.IronAccuracy
-	else
-		CurrentCone = self.Primary.Spread
-	end
-
-	if self.IronSightState and self.Owner:KeyDown(IN_ATTACK2) then
-		self:ShootBullet(self.Primary.Damage, self.Primary.Recoil / 6, self.Primary.NumShots, CurrentCone)
-	else
-		self:ShootBullet(self.Primary.Damage, self.Primary.Recoil, self.Primary.NumShots, CurrentCone)
 	end
 end
 
