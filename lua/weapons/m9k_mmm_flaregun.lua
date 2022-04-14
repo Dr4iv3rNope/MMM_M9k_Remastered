@@ -111,7 +111,7 @@ function SWEP:PrimaryAttack()
 
 			local Phys = rocket:GetPhysicsObject()
 			if IsValid(Phys) then
-				Phys:SetVelocity(self.Owner:GetAimVector() * 2500)
+				Phys:SetVelocity(self.Owner:GetAimVector() * 15000)
 				Phys:SetDragCoefficient(10)
 			end
 		end
