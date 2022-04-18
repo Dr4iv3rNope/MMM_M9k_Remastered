@@ -11,7 +11,7 @@ SWEP.ViewModel = "models/weapons/v_m202.mdl"
 SWEP.WorldModel = "models/weapons/w_m202.mdl"
 
 SWEP.Primary.Sound = "RPGF.single"
-SWEP.Primary.RPM = 50
+SWEP.Primary.RPM = 300
 SWEP.Primary.ClipSize = 4
 SWEP.Primary.DefaultClip = 4
 SWEP.Primary.KickUp = 2
